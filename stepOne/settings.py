@@ -126,9 +126,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 LOGIN_URL = 'calcs:login'
-STATIC_DIR = BASE_DIR / 'static'
-MEDIA_DIR = BASE_DIR / 'media'
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
+
 LOGIN_REDIRECT_URL = '/notes'
 LOGOUT_REDIRECT_URL = '/'
